@@ -1,8 +1,12 @@
-name = input("Enter your name: ")
+name = "Cherry"
+surname = " Mulliss"
 
 
-def say_hi(name):
-    return name
+def say_hi(name, surname):
+    """say hi function"""
 
 
-print("Hi %s" % (name))
+print("Hi %s %s" % (name, surname))
+
+
+say_hi("me", "first")
