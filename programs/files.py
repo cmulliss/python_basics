@@ -1,3 +1,7 @@
+import os
+
+print(os.getcwd())
+
 hosts = open("/etc/hosts")
 hosts_contents = hosts.read()
 print(hosts_contents + "\n")
